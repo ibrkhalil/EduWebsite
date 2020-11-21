@@ -1,0 +1,276 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+.mt-3 {
+  margin-top: 1rem;
+}
+.flex {
+  display: flex;
+}
+.btn {
+  background-color: #ffb606;
+  padding: 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: darkgoldenrod;
+}
+.card a {
+  margin-top: 30px;
+}
+.nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-around;
+  font-size: small;
+  align-items: center;
+  height: 2.3rem;
+}
+.left-nav ul li {
+  float: left;
+  padding: 10px;
+}
+
+.left-nav ul li i {
+  margin-right: 5px;
+}
+.right-nav {
+  display: flex;
+  margin-right: 5px;
+  justify-content: space-between;
+}
+.gcolor {
+  color: gray;
+}
+.right-nav a {
+  margin-right: 10px;
+  font-size: medium;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+.blog-post {
+  margin-top: 20px;
+}
+a:hover {
+  cursor: pointer;
+  color: #ffb606;
+  text-decoration: none;
+}
+.header-img {
+  background-image: url("https://images.unsplash.com/photo-1550123309-3cf75e1d0c83?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header {
+  padding-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 320px;
+}
+.fa-school {
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  color: #ffb606;
+}
+.big-logo {
+  margin-left: 180px;
+  display: flex;
+}
+.big-logo p {
+  color: white;
+  margin-left: 10px;
+}
+.menu {
+  display: flex;
+  color: white;
+  font-size: smaller;
+}
+.menu a {
+  margin-right: 20px;
+}
+.blog {
+  color: white;
+  border-left: 3.5px solid #ffb606;
+  padding-left: 15px;
+  margin-left: 60px;
+  position: absolute;
+  left: 7%;
+  top: 25%;
+  font-size: x-large;
+}
+.blog-text {
+  margin-top: 8px;
+  margin-left: 8px;
+  font-size: xxx-large;
+}
+.menu li {
+  margin-right: 10px;
+}
+.left-side .middle-titles {
+  margin-top: 15px;
+  width: 20%;
+}
+.upper-list {
+  padding-top: 40px;
+  margin: auto;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.middle-titles {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 150px;
+  font-size: 12px;
+  color: gray;
+}
+.middle-titles a:hover {
+  text-decoration: none;
+}
+.blog-post {
+  display: flex;
+  line-height: 2;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 150px;
+}
+.blog-post:first-child {
+  padding-top: 30px;
+}
+.post-details {
+  display: flex;
+  margin: 10px;
+}
+.post-details .info {
+  font-size: smaller;
+  border-right: 1px solid #eae8e6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  margin-right: 20px;
+}
+.date-info {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  margin-right: 20px;
+}
+.small-post-text {
+  font-size: small;
+  line-height: 1.7;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.rounded-img {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.box {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding-left: 15%;
+  margin-top: 50px;
+}
+.image-text-pair {
+  display: flex;
+  margin-bottom: 40px;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  align-items: center;
+  text-align: center;
+}
+.author-info {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+}
+.bold {
+  font-weight: bolder;
+  margin-top: 30px;
+}
+.previous-posts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.card-main {
+  display: flex;
+  padding: 30px;
+}
+.card-main h3 {
+  color: #ffb606;
+  margin-right: 20px;
+  font-size: 5rem;
+}
+.card-main h4 {
+  color: gold;
+}
+.card-title-info .info {
+  margin-top: 20px;
+  padding: 35px;
+}
+.card-date-info {
+  border-right: 3px solid lightgray;
+  margin-right: 30px;
+}
+.info:first-of-type {
+  border-right: 3px solid lightgray;
+  margin-right: 30px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+.card-content a {
+  width: 90px;
+}
+.categories-item {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  text-align: left;
+}
+.categories-item p {
+  font-size: 20px;
+}
+.search-bar {
+  padding: 12px;
+  border-radius: 5px;
+  width: 100px;
+  transition: 0.3;
+}
+.search-bar:hover {
+  border-color: #ffb606;
+  border: 2px solid #ffb606;
+  transition: 0.5;
+}
